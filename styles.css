@@ -93,10 +93,14 @@ ul {
     max-width: 57ch;
 }
 
-.content-form {
+.content-form-container {
     background-color: white;
     padding-left: 3rem;
     padding-right: 3rem;
+}
+
+.content-form {
+    max-width: 47em;
 }
 
 .content-form fieldset {
