@@ -38,15 +38,15 @@
                     <ul class="content-form-fields">
                         <li>
                             <label for="first_name">First name</label>
-                            <input type="text" name="first_name" id="first_name">
+                            <input type="text" name="first_name" id="first_name" placeholder=" " required pattern="[A-Za-z -]+"><span data-help="First name consists of letters and spaces only."></span>
                         </li>
                         <li>
                             <label for="last_name">Last name</label>
-                            <input type="text" name="last_name" id="last_name">
+                            <input type="text" name="last_name" id="last_name" placeholder=" " required pattern="[A-Za-z -]+"><span data-help="Last name consists of letters and spaces only."></span>
                         </li>
                         <li>
                             <label for="email">Email</label>
-                            <input type="email" name="email" id="email">
+                            <input type="email" name="email" id="email" placeholder=" " required><span data-help="Please enter a valid email address"></span>
                         </li>
                         <li>
                             <label for="tel_no">Phone number</label>
@@ -54,11 +54,11 @@
                         </li>
                         <li>
                             <label for="pwd">Password</label>
-                            <input type="password" name="pwd" id="pwd">
+                            <input type="password" name="pwd" id="pwd" placeholder=" " required pattern="[\w\d !£$%^&\*'\x22]+"><span data-help="Password can only contain letters, spaces and some special chars"></span>
                         </li>
                         <li>
                             <label for="pwd-confirm">Confirm password</label>
-                            <input type="password" id="pwd-confirm">
+                            <input type="password" id="pwd-confirm" placeholder=" " required pattern="[A-Za-z -]+">
                         </li>
                     </ul>
                 </fieldset>
