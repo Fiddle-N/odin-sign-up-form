@@ -15,7 +15,7 @@
         <div class="hero">
             <!-- <div class="hero-text">don't forget attribution</div> -->
             <div class="hero-logo-banner">
-                    <img src="odin-lined.png" width="100px" class="hero-logo-icon"></img>
+                    <img src="odin-lined.png" alt="Odin logo - a line illustration of a Viking face with a beard and an eyepatch" width="100px" class="hero-logo-icon"></img>
                     <div class="hero-logo-text">Odin</div>
             </div>
             <div class="hero-attrib">Photo by <a href="https://unsplash.com/photos/25xggax4bSA">Halie West</a> on <a href="https://unsplash.com/">Unsplash</a></div>
@@ -37,27 +37,27 @@
                     <legend>Let's do this!</legend>
                     <ul class="content-form-fields">
                         <li>
-                            <label for="first_name">First name</label>
+                            <label for="first_name">First name <span title="required">(*)</span></label>
                             <input type="text" name="first_name" id="first_name" placeholder=" " required pattern="[A-Za-z -]+"><span data-help="First name consists of letters and spaces only."></span>
                         </li>
                         <li>
-                            <label for="last_name">Last name</label>
+                            <label for="last_name">Last name <span title="required">(*)</span></label>
                             <input type="text" name="last_name" id="last_name" placeholder=" " required pattern="[A-Za-z -]+"><span data-help="Last name consists of letters and spaces only."></span>
                         </li>
                         <li>
-                            <label for="email">Email</label>
+                            <label for="email">Email <span title="required">(*)</span></label>
                             <input type="email" name="email" id="email" placeholder=" " required><span data-help="Please enter a valid email address"></span>
                         </li>
                         <li>
                             <label for="tel_no">Phone number</label>
-                            <input type="tel" name="tel_no" id="tel_no">
+                            <input type="tel" name="tel_no" id="tel_no" pattern="[\d+]+"><span data-help="Phone number may only contain digits and + symbol."></span>
                         </li>
                         <li>
-                            <label for="pwd">Password</label>
+                            <label for="pwd">Password <span title="required">(*)</span></label>
                             <input type="password" name="pwd" id="pwd" placeholder=" " required pattern="[\w\d !£$%^&\*'\x22]+"><span data-help="Password can only contain letters, spaces and some special chars"></span>
                         </li>
                         <li>
-                            <label for="pwd-confirm">Confirm password</label>
+                            <label for="pwd-confirm">Confirm password <span title="required">(*)</span></label>
                             <input type="password" id="pwd-confirm" placeholder=" " required pattern="[A-Za-z -]+">
                         </li>
                     </ul>

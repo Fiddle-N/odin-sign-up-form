@@ -159,12 +159,10 @@ ul {
     border-color: rgb(226, 226, 226);
 }
 
-
 .content-form-fields input:focus {
     border: solid 1px #1d4ed8;
     box-shadow: 0.2em 0.2em 0.4em rgb(224, 224, 224);
 }
-
 
 .content-actions {
     flex: 1;
