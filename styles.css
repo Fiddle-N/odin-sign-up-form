@@ -1,0 +1,126 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url(Norse-Bold.otf);
+  }
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    font-family: inherit;
+}
+
+fieldset {
+    margin: 0;
+    padding: 0;
+}
+
+.hero-container {
+    margin-left: -5rem;
+    width: 650px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 65rem;
+    padding-left: 5rem;
+    background-image: url("halie-west-25xggax4bSA-unsplash.jpg");
+    background-size: 700px;
+    background-repeat: no-repeat;
+    background-clip: content-box;
+}
+
+.hero-logo-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Norse-Bold, sans-serif;
+    color: white;
+    font-size: 6rem;
+    background-color: rgba(0, 0, 0, 0.36);
+    margin-top: 15rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+}
+
+.hero-attrib, .hero-attrib a {
+    color: white;
+    align-self: center;
+    padding-bottom: 1rem;
+    font-size: 0.9rem;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    background-color: #f9fafb;
+}
+
+.content-intro {
+    font-weight: 500;
+    font-size: 1.6rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+    max-width: 57ch;
+}
+
+.content-form {
+    background-color: white;
+    padding-left: 3rem;
+}
+
+.content-form fieldset {
+    border: none;
+    margin-top: 1.5rem;
+}
+
+.content-form legend {
+    font-weight: 500;
+    font-size: 1.6rem;
+}
+
+.content-form-fields {
+    margin-top: 3rem;
+}
+
+.content-actions {
+    flex: 1;
+    padding-top: 2rem;
+    padding-left: 3rem;
+}
+
+.content-actions-submit {
+    cursor: pointer;
+    background-color: #596D48;
+    color: white;
+    border: none;
+    border-radius: 0.5em;
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding: 0.8em 3em;
+    margin-bottom: 1.3em;
+    box-shadow: 0.1em 0.1em 0.4em rgba(0, 0, 0, 0.3 );
+}
+
+.content-actions-login {
+    font-size: 1.2rem;
+}
+
+.content-actions-login a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #596D48;
+}
